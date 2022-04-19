@@ -1,0 +1,33 @@
+name: secure_app
+description: CET324-Advanced Cyber Sercurity assignmnet. This application illustrates appropriate design approaches to cybersercurity in applications.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# Version number and build number for this appplication
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+# Packages needed for this application
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^3.3.11
+  firebase_core: ^1.13.1
+  shared_preferences: ^2.0.13
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
